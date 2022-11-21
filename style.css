@@ -1,6 +1,8 @@
 body {
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 550;
     background-image: linear-gradient(to bottom, rgb(86, 0, 86), rgb(0, 54, 153));
 }
 #img1 {
@@ -11,11 +13,11 @@ body {
 }
 #name{
     text-align: center;
-    font: larger;
-    color: black;
+    font-size: 19px;
+    color: white;
 }
-h1, h2, h3 {
-    color: black;
+h1, h2{
+    color: white;
 }
 .navbar {
     overflow: auto;
@@ -41,5 +43,5 @@ h1, h2, h3 {
     padding: 10px;
     margin-top: 20px;
     height: 1500px;
-    color: white;
+    color: black;
 }
