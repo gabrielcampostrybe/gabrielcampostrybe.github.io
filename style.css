@@ -3,7 +3,20 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: linear-gradient(to bottom, rgb(86, 0, 86), rgb(0, 54, 153));
 }
-
+#img1 {
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#name{
+    text-align: center;
+    font: larger;
+    color: black;
+}
+h1, h2, h3 {
+    color: black;
+}
 .navbar {
     overflow: auto;
     background-color: black;
@@ -11,24 +24,22 @@ body {
     top: 0;
     width: 100%;
 }
-
 .navbar a {
     float: left;
     display: block;
     color: aqua;
     text-align: center;
-    padding: 14px 16px;
+    padding: 9px 16px;
     text-decoration: none;
     font-size: 17px;
 }
-
-
 .navbar a:hover {
     background: rgb(126, 126, 126);
     color: black;
 }
-
 .main {
     padding: 10px;
     margin-top: 20px;
+    height: 1500px;
+    color: white;
 }
